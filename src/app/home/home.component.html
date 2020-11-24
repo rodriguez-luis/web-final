@@ -1,0 +1,12 @@
+<div>
+    <div class="fila">
+        <mat-form-field class="entrada">
+            <mat-label class="letra">Palabras claves</mat-label>
+            <input matInput type="text" [(ngModel)]="value">
+            <button mat-button matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+                <mat-icon>close</mat-icon>
+            </button>
+        </mat-form-field>
+        <button mat-raised-button class="boton"  (click)="ir()">Ver videos</button>
+    </div>
+</div>
